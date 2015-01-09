@@ -11,6 +11,22 @@ public class MainActivity extends ActionBarActivity {
 
     private final static String TAG = "MainActivity";
 
+    private String convert(int i) {
+        String ret = "";
+        switch (i) {
+            case 1: ret = "one"; break;
+            case 2: ret = "two"; break;
+            case 3: ret = "three"; break;
+            case 4: ret = "four"; break;
+            case 5: ret = "five"; break;
+            case 6: ret = "six"; break;
+            case 7: ret = "seven"; break;
+            case 8: ret = "eight"; break;
+            case 9: ret = "nine"; break;
+            case 10: ret = "ten"; break;
+        }
+        return ret;
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +34,7 @@ public class MainActivity extends ActionBarActivity {
 
         // Just Logging some lyrics to the Marching Ants song
         for (int i = 0; i <= 10; i++) {
-            Log.d(TAG, "Ants go marching " + i + " by " + i + ". Hoorah! Hoorah!");
+            Log.d(TAG, "Ants go marching " + convert(i) + " by " + convert(i) + ". Hoorah! Hoorah!");
         }
     }
 
