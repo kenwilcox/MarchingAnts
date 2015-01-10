@@ -13,15 +13,15 @@ public class MainActivity extends ActionBarActivity {
 
     private String convert(int i) {
         String ret = "";
-        if (i == 1)ret = "one";
-        if (i == 2)ret = "two";
-        if (i == 3)ret = "three";
-        if (i == 4)ret = "four";
-        if (i == 5)ret = "five";
-        if (i == 6)ret = "six";
-        if (i == 7)ret = "seven";
-        if (i == 8)ret = "eight";
-        if (i == 9)ret = "nine";
+        if (i == 1) ret = "one";
+        if (i == 2) ret = "two";
+        if (i == 3) ret = "three";
+        if (i == 4) ret = "four";
+        if (i == 5) ret = "five";
+        if (i == 6) ret = "six";
+        if (i == 7) ret = "seven";
+        if (i == 8) ret = "eight";
+        if (i == 9) ret = "nine";
         if (i == 10) ret = "ten";
         return ret;
     }
