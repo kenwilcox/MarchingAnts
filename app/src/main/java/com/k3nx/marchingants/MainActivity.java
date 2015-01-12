@@ -24,9 +24,13 @@ public class MainActivity extends ActionBarActivity {
         for (int i = 0; i < numbers.length; i++) {
             String number = numbers[i];
 
-            Log.d(TAG, "Ants go marching " + number + " by " + number + ". Hoorah! Hoorah!");
-            Log.d(TAG, "Ants go marching " + number + " by " + number + ". Hoorah! Hoorah!");
-            Log.d(TAG, "Ants go marching " + number + " by " + number + ",");
+            String base = String.format("Ants go marching %1$s by %1$s", number);
+            String song = base + ". Hoorah! Hoorah!";
+            String pause = base + ",";
+
+            Log.d(TAG, song);
+            Log.d(TAG, song);
+            Log.d(TAG, pause);
 
             if (i == 0) Log.d(TAG, "The little one stops to suck her thumb,");
             if (i == 1) Log.d(TAG, "The little one stops to tie his shoe,");
