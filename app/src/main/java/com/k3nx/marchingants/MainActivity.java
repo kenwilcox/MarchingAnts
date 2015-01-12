@@ -24,8 +24,9 @@ public class MainActivity extends ActionBarActivity {
         for (int i = 0; i < numbers.length; i++) {
             String number = numbers[i];
 
-            String base = String.format("Ants go marching %1$s by %1$s", number);
-            String song = base + ". Hoorah! Hoorah!";
+            //String base = String.format("Ants go marching %1$s by %1$s", number);
+            String base = getResources().getString(R.string.song_format, number);
+            String song = base + getResources().getString(R.string.hoorah);
             String pause = base + ",";
 
             Log.d(TAG, song);
