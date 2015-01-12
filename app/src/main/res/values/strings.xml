@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">MarchingAnts</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Marching Ants. See Log.d for output!</string>
     <string name="action_settings">Settings</string>
 
 </resources>
