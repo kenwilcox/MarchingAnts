@@ -22,9 +22,11 @@ public class MainActivity extends ActionBarActivity {
         // Based on the lyrics provided here:
         // http://www.metrolyrics.com/the-ants-go-marching-lyrics-children.html
         for (int i = 0; i < numbers.length; i++) {
-            Log.d(TAG, "Ants go marching " + numbers[i] + " by " + numbers[i] + ". Hoorah! Hoorah!");
-            Log.d(TAG, "Ants go marching " + numbers[i] + " by " + numbers[i] + ". Hoorah! Hoorah!");
-            Log.d(TAG, "Ants go marching " + numbers[i] + " by " + numbers[i] + ",");
+            String number = numbers[i];
+
+            Log.d(TAG, "Ants go marching " + number + " by " + number + ". Hoorah! Hoorah!");
+            Log.d(TAG, "Ants go marching " + number + " by " + number + ". Hoorah! Hoorah!");
+            Log.d(TAG, "Ants go marching " + number + " by " + number + ",");
 
             if (i == 0) Log.d(TAG, "The little one stops to suck her thumb,");
             if (i == 1) Log.d(TAG, "The little one stops to tie his shoe,");
