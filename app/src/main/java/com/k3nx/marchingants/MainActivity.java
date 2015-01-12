@@ -21,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
         // Just Logging some lyrics to the Marching Ants song
         // Based on the lyrics provided here:
         // http://www.metrolyrics.com/the-ants-go-marching-lyrics-children.html
-        for (int i = 0; i <= numbers.length; i++) {
+        for (int i = 0; i < numbers.length; i++) {
             Log.d(TAG, "Ants go marching " + numbers[i] + " by " + numbers[i] + ". Hoorah! Hoorah!");
             Log.d(TAG, "Ants go marching " + numbers[i] + " by " + numbers[i] + ". Hoorah! Hoorah!");
             Log.d(TAG, "Ants go marching " + numbers[i] + " by " + numbers[i] + ",");
